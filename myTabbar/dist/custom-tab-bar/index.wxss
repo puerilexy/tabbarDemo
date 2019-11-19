@@ -1,0 +1,52 @@
+
+.tab-bar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150rpx;
+  font-size: 32rpx;
+  background: transparent; }
+  .tab-bar-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 110rpx;
+    margin-top: 40rpx;
+    background: #ffffff; }
+    .tab-bar-wrap-item {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-top: 8rpx; }
+      .tab-bar-wrap-item-icon {
+        width: 55rpx;
+        height: 55rpx; }
+      .tab-bar-wrap-item-btn {
+        font-size: 24rpx;
+        line-height: 42rpx;
+        background: #ffffff; }
+  .tab-bar .intellect-icon {
+    width: 105rpx;
+    height: 105rpx;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%); }

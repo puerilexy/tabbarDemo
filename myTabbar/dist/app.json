@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/intellect/intellect"
+  ],
+  "window": {
+    "backgroundColor": "#f4f4f4",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#ed6c00",
+    "backgroundColor": "#fafafa",
+    "borderStyle": "black",
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/home.png",
+        "selectedIconPath": "assets/home-active.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "assets/user.png",
+        "selectedIconPath": "assets/user-active.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

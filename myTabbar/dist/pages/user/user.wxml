@@ -1,0 +1,4 @@
+<block wx:if="{{$taroCompReady}}">
+    <view><text> Hello user! </text> 
+    </view>
+</block>

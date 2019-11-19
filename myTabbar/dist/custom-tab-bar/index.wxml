@@ -1,0 +1,11 @@
+<block wx:if="{{$taroCompReady}}">
+    <cover-view class="tab-bar">
+        <cover-view class="tab-bar-wrap">
+            <cover-view class="tab-bar-wrap-item" bindtap="switchTab" data-path="{{item.$original.pagePath}}" wx:key="$original.text" wx:for="{{loopArray2}}" wx:for-item="item" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{item.$original}}">
+                <cover-image class="tab-bar-wrap-item-icon" src="{{selected === index ? item.$original.selectedIconPath : item.$original.iconPath}}"></cover-image>
+                <cover-view class="tab-bar-wrap-item-btn" style="{{item.$loopState__temp2}}">{{item.$original.text}}</cover-view>
+            </cover-view>
+        </cover-view>
+        <cover-image class="intellect-icon" src="{{Intellect}}" bindtap="jumpIntellect"></cover-image>
+    </cover-view>
+</block>

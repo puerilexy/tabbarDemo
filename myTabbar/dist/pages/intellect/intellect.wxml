@@ -1,0 +1,4 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="intellect"><text> 智能问答页面 </text> 
+    </view>
+</block>
