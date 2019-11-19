@@ -1,0 +1,2 @@
+# tabbarDemo
+在taro中自定义tabbar,实现在tabbar中添加一个突出的小图标
